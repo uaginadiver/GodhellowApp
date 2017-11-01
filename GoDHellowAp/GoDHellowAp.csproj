@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DayCreator.cs" />
     <Compile Include="Employees.cs" />
+    <Compile Include="EmployeesBuffer.cs" />
     <Compile Include="EmpRealTemp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

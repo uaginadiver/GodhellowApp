@@ -10,7 +10,7 @@ namespace GoDHellowAp
     {
           
        public List<Employees> workersinDay { set; get; }
-       public DateTime WorkDay { get; set; }
+     
     }
 }
 

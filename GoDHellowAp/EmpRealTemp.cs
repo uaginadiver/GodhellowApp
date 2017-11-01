@@ -8,14 +8,15 @@ namespace GoDHellowAp
 {
     class EmpRealTemp
     {
-        public Employees Emp = new Employees();
-        public Employees createEmployer(string nm, string lstnm, DateTime dt1, DateTime dt2)
+       
+         static public Employees createEmployer()
         {
-
-            Emp.name = nm;
-            Emp.lastname = lstnm;
-            Emp.PrefermDate.Add(dt1);
-            Emp.PrefermDate.Add(dt2);
+           
+            Employees Emp = new Employees();
+            Emp.name = Console.ReadLine();               
+            Emp.lastname = Console.ReadLine();
+            EB.Cowokers.Add(Emp);
+           
             return Emp;
         }
 

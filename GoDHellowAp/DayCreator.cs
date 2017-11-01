@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace GoDHellowAp
 {
-    class Program
+    class DayCreator
     {
-        static void Main(string[] args)
-
+        void dc()
         {
+            WorkDays Wk = new WorkDays();
             
-    }
-            
-            
-        }
-    }
+            Wk.workersinDay.Add( EmployeesBuffer.);
 
+        }
+
+        
+      
+    }
+}

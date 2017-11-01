@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace GoDHellowAp
 {
-    class WorkMounths
+    class EmployeesBuffer
     {
-        public List<WorkDays> workmounth { get; set; }
-      
+        public List<Employees> Cowokers { get; set; }
     }
 }
