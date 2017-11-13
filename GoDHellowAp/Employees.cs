@@ -11,14 +11,7 @@ namespace GoDHellowAp
         
          
         public string name { set; get; }
-        public string lastname { set; get; }
-       
-
-        public Employees print()
-        {
-            Console.WriteLine(name + lastname);
-            return new Employees();
-        }
+        public string lastname { set; get; }      
     }
 }
 

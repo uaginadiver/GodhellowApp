@@ -12,7 +12,7 @@ namespace GoDHellowAp
         {
             WorkDays Wk = new WorkDays();
             
-            Wk.workersinDay.Add( EmployeesBuffer.);
+           
 
         }
 

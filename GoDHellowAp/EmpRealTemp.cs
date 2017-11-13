@@ -12,14 +12,15 @@ namespace GoDHellowAp
          static public Employees createEmployer()
         {
            
-            Employees Emp = new Employees();
+           Employees Emp = new Employees();
             Emp.name = Console.ReadLine();               
             Emp.lastname = Console.ReadLine();
-            EB.Cowokers.Add(Emp);
+           
            
             return Emp;
         }
-
+       
+        
 
     }
 }
