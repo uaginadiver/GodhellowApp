@@ -8,15 +8,12 @@ namespace GoDHellowAp
 {
     class DayCreator
     {
-        void dc()
-        {
-            WorkDays Wk = new WorkDays();
-            
-           
 
+        public void empadder(Employees a)
+        { WorkDays wk = new WorkDays();
+            wk.workersinDay.Add(a);
         }
-
-        
-      
+                                            
+     }              
     }
-}
+

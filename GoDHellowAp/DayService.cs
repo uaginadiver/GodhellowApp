@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace GoDHellowAp
 {
-    class WorkDays
+    class DayService
     {
-          
-       public  List<Employees> workersinDay { set; get; }
-     
+
+       
+        
     }
 }
-
